@@ -6,6 +6,7 @@
             <class name="com.thetestingacademy.TestVWOLogin_01_Normal_POM">
                 <methods>
                     <include name="test_negative_vwo_login"/>
+                    <include name="test_positive_vwo_login"/>
                 </methods>
             </class>
         </classes>
