@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="/Users/promode/Documents/TTA/ATB15xSeleniumAdvanceFramework">
+    <test verbose="2" preserve-order="true" name="VWO Login">
         <classes>
             <class name="com.thetestingacademy.TestVWOLogin_01_Normal_POM">
                 <methods>
