@@ -1,6 +1,6 @@
 package com.thetestingacademy;
-import com.thetestingacademy.Pages.PageObjectModel.VWO.DashBoardPage;
-import com.thetestingacademy.Pages.PageObjectModel.VWO.LoginPage;
+import com.thetestingacademy.Pages.PageObjectModel.VWO.NormalPOM.DashBoardPage;
+import com.thetestingacademy.Pages.PageObjectModel.VWO.NormalPOM.LoginPage;
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;
 import org.openqa.selenium.WebDriver;
