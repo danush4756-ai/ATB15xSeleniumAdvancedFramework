@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package com.thetestingacademy.Tests.VWO;
 import com.thetestingacademy.Pages.PageObjectModel.VWO.NormalPOM.DashBoardPage;
 import com.thetestingacademy.Pages.PageObjectModel.VWO.NormalPOM.LoginPage;
 import io.qameta.allure.Description;

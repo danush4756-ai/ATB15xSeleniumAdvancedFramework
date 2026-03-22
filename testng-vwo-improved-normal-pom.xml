@@ -3,11 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="VWO Login">
         <classes>
-            <class name="com.thetestingacademy.Tests.VWO.TestVWOLogin_01_Normal_POM">
-                <methods>
-                    <include name="test_negative_vwo_login"/>
-                    <include name="test_positive_vwo_login"/>
-                </methods>
+            <class name="com.thetestingacademy.Tests.VWO.TestVWOLogin_02_Prop_Improved_POM">
             </class>
         </classes>
     </test>
