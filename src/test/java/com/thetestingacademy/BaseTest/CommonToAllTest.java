@@ -7,7 +7,7 @@ public class CommonToAllTest {
     public void setUp(){
         DriverManager.init();
     }
-    @AfterMethod
+    @AfterMethod//these methods get executed automatically, because of the BeforeMethod and AfterMethod annotations used.
     public void tearDown(){
         DriverManager.down();
     }
