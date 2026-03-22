@@ -25,7 +25,7 @@ public class TestVWOLogin_02_Prop_Improved_POM extends CommonToAllTest {
         String error_msg = loginPage.loginToVWOLoginInvalidCreds(PropertiesReader.readKey("invalid_username"), PropertiesReader.readKey("invalid_password"));
         // Assertions - 3 - V
         logger.info("Final Assert Verifications....");
-        // System.out.println(error_msg); No now!!
+        // System.out.println(error_msg); No now!! because it will slow down the test
         logger.info(error_msg.toString());
         logger.error("Failed to verify");
         assertThat(error_msg).isNotNull().isNotBlank().isNotEmpty();
