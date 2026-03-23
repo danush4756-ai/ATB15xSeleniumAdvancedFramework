@@ -25,7 +25,7 @@ public class CommonToAllPage {
     public void enterInput(WebElement by, String key) {
         by.sendKeys(key);
     }
-    public String fetchText(By by){ //getText is user created method
+    public String fetchText(By by){
         return getDriver().findElement(by).getText();//but here getText is default method
     }
     public String fetchText(WebElement by){
