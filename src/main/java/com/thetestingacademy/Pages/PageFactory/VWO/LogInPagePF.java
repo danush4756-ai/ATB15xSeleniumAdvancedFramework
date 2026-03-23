@@ -10,7 +10,8 @@ public class LogInPagePF extends CommonToAllPage {
     WebDriver driver;
     public LogInPagePF(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver,this);
+        PageFactory.initElements(driver,this);/*this loads all elements at once and if element changes it may give
+        StaleElementException. For this reason PF is generally not used*/
     }
     // Page Locators
     @FindBy(id="login-username")
