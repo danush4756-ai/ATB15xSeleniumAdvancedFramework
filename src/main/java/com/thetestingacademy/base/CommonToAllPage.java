@@ -26,7 +26,7 @@ public class CommonToAllPage {
         by.sendKeys(key);
     }
     public String fetchText(By by){
-        return getDriver().findElement(by).getText();//but here getText is default method
+        return getDriver().findElement(by).getText();
     }
     public String fetchText(WebElement by){
         return by.getText();
