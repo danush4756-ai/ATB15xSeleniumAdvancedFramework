@@ -1,5 +1,4 @@
 package com.thetestingacademy.Tests.VWO;
-
 import com.thetestingacademy.BaseTest.CommonToAllTest;
 import com.thetestingacademy.Pages.PageObjectModel.VWO.ImprovedPOM.LogInPageImproved;
 import com.thetestingacademy.Utils.PropertiesReader;
