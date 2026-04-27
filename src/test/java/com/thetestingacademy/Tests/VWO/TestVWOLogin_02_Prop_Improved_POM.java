@@ -1,5 +1,4 @@
 package com.thetestingacademy.Tests.VWO;
-
 import com.thetestingacademy.BaseTest.CommonToAllTest;
 import com.thetestingacademy.Pages.PageObjectModel.VWO.ImprovedPOM.LogInPageImproved;
 import com.thetestingacademy.Utils.PropertiesReader;
@@ -11,7 +10,6 @@ import org.testng.annotations.Test;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import static org.assertj.core.api.Assertions.assertThat;
-
 public class TestVWOLogin_02_Prop_Improved_POM extends CommonToAllTest {
     private static final Logger logger = LogManager.getLogger(TestVWOLogin_02_Prop_Improved_POM.class);
     @Owner("DARSHTS")
